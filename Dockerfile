@@ -1,5 +1,5 @@
 # FROM node:6-stretch
-FROM node:20.6.0-bookworm-slim
+FROM node:20.18-bookworm-slim
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
